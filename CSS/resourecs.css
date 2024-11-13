@@ -1,0 +1,20 @@
+#resourcesList {
+    margin: 1.5rem 0 2rem 0;
+}
+
+#ai-resources {
+    margin: 1.5rem 0 2rem 0;
+}
+
+.card {
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgb(222, 221, 221);
+}
+
+.card-title {
+    border: 1px solid rgb(178, 139, 214);
+    padding: 0.2rem;
+    background-color: rgb(215, 193, 236);
+    border-radius: 2px;
+    text-align: center;
+}
