@@ -60,9 +60,7 @@ document.getElementById("getToKnowForm").addEventListener("submit", async functi
             localStorage.setItem("resourcesData", JSON.stringify(data.resources));
             localStorage.setItem("aiResourcesData", JSON.stringify(data.aiGeneratedResources));
 
-            setTimeout(() => {
-                window.location.href = "resources.html";
-            }, 15000);
+            window.location.href = "resources.html";
         } else {
             alert("Failed to submit form. Please try again.");
         }
